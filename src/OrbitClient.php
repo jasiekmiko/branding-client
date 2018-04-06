@@ -188,7 +188,7 @@ class OrbitClient
             'Accept-Language' => isset($options['language']) ? $options['language'] : 'en',
             'X-Orb-Variant' => isset($options['variant']) ? $options['variant'] : 'default',
         ];
-        if ($this->options['useCloudIdcta'] == true) {
+        if ($this->options['useCloudIdcta']) {
             $headers['X-Feature'] = 'akamai-idcta';
         }
         return $headers;
