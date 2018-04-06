@@ -110,6 +110,7 @@ Valid $options keys to pass to the `OrbitClient` are:
    Check the [Mustache Wiki for available options](https://github.com/bobthecow/mustache.php/wiki#constructor-options).
 * `useCloudIdcta`: boolean, `false` by default, indicating whether requests to navigation.<env>.bbc.co.uk should include
    X-Feature header, [accommodating cloud idcta](https://confluence.dev.bbc.co.uk/pages/viewpage.action?pageId=117803057)
+    
 ### Branding Object
 
 The `Branding` object returned from `BrandingClient->getContent()` is a domain
